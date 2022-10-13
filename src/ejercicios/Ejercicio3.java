@@ -31,6 +31,7 @@ public class Ejercicio3 {
         System.out.println("Introduzca un numero entero: ");
         num2 = sc.nextInt();
 
+        //Mostramos el menu de opciones al usuario par que pueda introducir alguna
         System.out.println("""
                         ¿Qué desea hacer con los números?
                         
@@ -41,6 +42,7 @@ public class Ejercicio3 {
                             """);
         menu=sc.next();
 
+        //Según la respuesta introducida por el usuario se imprimirá un mensaje determinado
         switch (menu){
             case "A", "a"->{
                 resultado=num1+num2;
